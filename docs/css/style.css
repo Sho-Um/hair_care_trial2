@@ -80,13 +80,15 @@ header {
   text-align: center;
 }
 .header-title {
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: #64b44c;
+  margin-bottom: 0 / rem;
+  font-family: "Parisienne", cursive;
 }
 .header-name {
-  font-size: 1.7rem;
-  margin-bottom: 1rem;
+  font-size: 2.4rem;
   color: #64b44c;
+  font-family: "Parisienne", cursive;
 }
 .header-link {
   font-size: 1.25rem;
@@ -459,8 +461,9 @@ img {
   font-weight: normal;
   padding: 3% 3% 3% 50px;
   transition: all 0.5s ease;
-  background-color: rgb(78, 78, 78);
-  color: white;
+  /* background-color: #ffe5ae; */
+  background-color: #dde69d;
+  color: #666666;
 }
 
 /*アイコンの＋と×*/
@@ -496,7 +499,9 @@ img {
 /*アコーディオンで現れるエリア*/
 .box {
   display: none; /*はじめは非表示*/
-  background: black;
+  /* background: rgb(185, 185, 185); */
+  /* background: linear-gradient(#fbe9bd, #f3ffdc); */
+  background: linear-gradient(#f3ffdc, #fbe9bd);
   margin: 0 3% 3% 3%;
   padding: 3%;
 }
@@ -596,6 +601,7 @@ iframe {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-family: "Parisienne", cursive;
 }
 
 /* Loading アイコンの大きさ設定*/
